@@ -20,3 +20,11 @@ This project aims to create a C++ application that generates audio files.
 this is the first good wave form made by changing A
 ![image](https://github.com/brolonium210/shiny-octo-computing-machine/assets/147342049/fb672185-7f30-40c1-90f5-eabca295d5b2)
 
+had some good results just mucking around with the values of each of the variables ,the values the internet stated were for single tones though
+the "harmonic tone" involves a series of tones at specific frequiences.
+will follow up on tommorrow
+![image](https://github.com/brolonium210/shiny-octo-computing-machine/assets/147342049/2cab05cd-e1f9-458c-8f0f-790277e8a221)
+
+
+
+
