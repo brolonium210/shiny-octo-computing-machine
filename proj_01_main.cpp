@@ -7,6 +7,10 @@ using namespace std;
 
 int main() {
     int sample_rate = 44100;
+    int sample_rate2 = 20000;
+    int sample_rate3 = 60000;
+
+
     double duration = 2.0;
     int n_samples = sample_rate * duration;
     std::vector<int> waveform;
@@ -21,15 +25,27 @@ int main() {
 
     int volume = 6000;
 //---------------------------------------------------------------------------------
+//this is changing the A in the equation
     for (int i_sample = 0; i_sample < n_samples; i_sample++) {
         double t = i_sample * 1.0 / sample_rate;
         waveform.push_back(volume * sin(2 * M_PI * frequency0 * t));
+        if(volume<30000){
+            volume = volume + 1;
+        }else{
+            volume = 2000;
+        }
+
     }
 
     MakeWavFromVector("tone1.wav", sample_rate, waveform);
 //---------------------------------------------------------------------------------
+//
+//
+//
+
 for (int i_sample = 0; i_sample < n_samples; i_sample++) {
-        double t = i_sample * 1.0 / sample_rate;
+        n_samples = sample_rate2 * duration;
+        double t = i_sample * 1.0 / sample_rate2;
         waveform.push_back(volume * sin(2 * M_PI * frequency1 * t));
     }
 
