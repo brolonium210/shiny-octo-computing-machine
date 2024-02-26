@@ -17,3 +17,6 @@ This project aims to create a C++ application that generates audio files.
 - Probably need to keep project diary for building a report
 - probably need to take photos and screenshots maybe
 
+this is the first good wave form made by changing A
+![image](https://github.com/brolonium210/shiny-octo-computing-machine/assets/147342049/fb672185-7f30-40c1-90f5-eabca295d5b2)
+
